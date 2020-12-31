@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="container">
-      <h1>My Todos</h1>
+      <h1>My Todo</h1>
       <form @submit.prevent>
         <input type="text" placeholder="Create a new to-do..." autofocus v-model.trim="newtodo"/>
         <button @click="addtodo()" class="add">Add</button>
